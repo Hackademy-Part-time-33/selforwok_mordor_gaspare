@@ -10,8 +10,8 @@ let tot = (num1 + num2 + num3 + num4);
 let media = (tot / 4)
 
 
+console.log(`la somma tra i numeri è ${tot} e la media è ${media}`);
 
-console.log('la somma tra i numeri è ' + tot + 'e la media è' + media);
 
 // traccia 2
 
@@ -20,8 +20,8 @@ let bdayears = 1946;
 let years = (currentyears - bdayears);
 let top100 = (100 - years);
 
-console.log('hai ' + years + 'ti mancancano ' + top100 + 'per raggiungere 100' );
 
+console.log(` hai ${years} e ti mancano ${top100} per raggiungere 100`);
 //  traccia3
 
 let numero1 = parseInt (prompt ('inserisci un numero'));
@@ -33,7 +33,8 @@ let divisione = (numero1 / numero2);
 let potenzanm1 = (numero1 **2);
 let potenzanm2 = (numero2 **2);
 
-console.log('con i numeri da te scelti,i risultati delle varie operazioni sono '  + ' somma ' + somma + ' sottrazione ' + sottrazione + ' moltiplicazione ' + moltiplicazione + ' divisione ' + divisione + ' potenza del nm1 ' + potenzanm1 + ' potenza del nm2 ' + potenzanm2);
+
+console.log(`con in numeri da te scelti, i risultati delle varie operazioni sono somma ${somma}, sottrazione ${sottrazione},moltiplicazione ${moltiplicazione}, divisione ${divisione}, potenza del nm1 ${potenzanm1}, potenza del nm2 ${potenzanm2}`);
 
 // traccia4
 
